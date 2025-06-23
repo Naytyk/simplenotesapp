@@ -5,7 +5,7 @@ import Create from './pages/Create';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/simplenotesapp">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
