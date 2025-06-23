@@ -1,6 +1,7 @@
 # 📝 Notes App (Frontend Only)
 
 A simple, modern notes app built with **React** and **vanilla CSS**, storing all data in the browser using `localStorage`. Create, edit, and delete notes — no signup or backend needed.
+Hosted link https://naytyk.github.io/orderandchaos
 
 ---
 
