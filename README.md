@@ -16,20 +16,25 @@ A simple, modern notes app built with **React** and **vanilla CSS**, storing all
 
 ## 🗂️ File Structure
 
-/src
-├── components/
-│ ├── Header.jsx # Top bar with logo and Create button
-│ └── NoteCard.jsx # Note preview cards on the homepage
+.
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx         # Top bar with logo and Create button
+│   │   └── NoteCard.jsx       # Note preview cards
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx           # Displays all saved notes
+│   │   └── Create.jsx         # Editor to create/edit notes
+│   │
+│   ├── styles/
+│   │   └── main.css           # Base and component styles
+│   │
+│   ├── App.jsx                # App-level routing and structure
+│   └── index.js               # Entry point
 │
-├── pages/
-│ ├── Home.jsx # Displays list of all notes
-│ └── Create.jsx # Editor page to create or edit notes
-│
-├── App.jsx # Main component with routing
-├── index.js # Entry point
-├── styles/
-│ └── main.css # Global and component styles
-
+├── package.json
+└── README.md
 
 ---
 
