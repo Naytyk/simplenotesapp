@@ -4,13 +4,13 @@ import './Header.css';
 
 const Header = () => {
   const location = useLocation();
-  const isHome = location.pathname === '/simplenotesapp/';
+  const isHome = location.pathname === '/';
 
   return (
     <header className="header">
-      <Link to="/simplenotesapp/" className="logo">NOTES</Link>
+      <Link to="/" className="logo">NOTES</Link>
       {isHome && (
-        <Link to="/simplenotesapp/create" className="create-btn">Create</Link>
+        <Link to="/create" className="create-btn">Create</Link>
       )}
     </header>
   );

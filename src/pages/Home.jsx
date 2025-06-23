@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   const handleClick = (id) => {
-    navigate(`/simplenotesapp/create?id=${id}`);
+    navigate(`/create?id=${id}`);
   };
 
   return (

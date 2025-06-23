@@ -35,7 +35,7 @@ const Create = () => {
     }
 
     localStorage.setItem('notes', JSON.stringify(updatedNotes));
-    navigate('/simplenotesapp/');
+    navigate('/');
   };
 
   return (
